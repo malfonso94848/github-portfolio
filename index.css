@@ -16,6 +16,20 @@
     src: url('./fonts/Jost-Regular.ttf') format('woff');
 }
 
+@font-face {
+    font-family: 'Trajanus Bricks';
+    font-style: normal;
+    font-weight: 400;
+    src: url('./fonts/TrajanusBricks.ttf') format('woff');
+}
+
+@font-face {
+    font-family: 'Birds of Paradise';
+    font-style: normal;
+    font-weight: 400;
+    src: url('./fonts/Birds\ of\ Paradise\ +\ PERSONAL\ USE\ ONLY.ttf') format('woff');
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -35,7 +49,7 @@
     --line-height-small: 1.2;
 
     --black: #000;
-    --pink: #ff3258;
+    --pink: #7300cb;
     --white: #f0e9f2;
     --white-1: #e5e5e6da;
 
@@ -130,6 +144,7 @@ h3 {
 
 .heading-primary {
     line-height: 1;
+    font-family: 'Birds of Paradise';
     font-size: var(--font-size-huge);
     font-weight: 400;
 }
