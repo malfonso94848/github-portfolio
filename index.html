@@ -16,432 +16,686 @@
 
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" type="image/png" href="./images/M-Icon.png" />
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="shortcut icon" type="image/png" href="./images/M-Icon.png" />
+    <!-- Put your site title here -->
+    <title>
+      Michael Anthony Alfonso | A Full-Stack Developer based in Sanford,
+      Florida.
+    </title>
 
-  <!-- Put your site title here -->
-  <title>
-    Michael Anthony Alfonso | A Web Developer based in Sanford, Florida.
-  </title>
+    <meta name="description" content="Add small description of yourslef." />
+    <!-- Add some coding keywords below, Ex: (React, CSS etc) -->
+    <meta
+      name="keywords"
+      content="Michael A Alfonso, HTML, CSS, JavaScript, SQL, GitHub, Adobe Certified Associate, XD, Figma, PHP, React, Node, Microsoft Creative Suite, Creative, Communiative, Team Player, Works Under Pressure"
+    />
+    <link rel="stylesheet" href="index.css" />
+  </head>
 
-  <meta name="description" content="Add small description of yourslef.">
-  <!-- Add some coding keywords below, Ex: (React, CSS etc) -->
-  <meta name="keywords" content="Michael A Alfonso, HTML, CSS, JavaScript, SQL, GitHub, Adobe Certified Associate, XD, Figma, PHP, React, Node, Microsoft Creative Suite, Creative, Communiative, Team Player, Works Under Pressure" />
-  <link rel="stylesheet" href="index.css" />
-</head>
+  <body>
+    <!-- ***** Header ***** -->
 
-<body>
+    <header class="header" role="banner" id="top">
+      <div class="row">
+        <nav class="nav" role="navigation">
+          <ul class="nav__items">
+            <li class="nav__item">
+              <a href="#work" class="nav__link">Work</a>
+            </li>
+            <li class="nav__item">
+              <a href="#clients" class="nav__link">Clients</a>
+            </li>
+            <li class="nav__item">
+              <a href="#about" class="nav__link">About</a>
+            </li>
+            <li class="nav__item">
+              <a href="#contact" class="nav__link">Contact</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+      <div class="header__text-box row">
+        <div class="header__text">
+          <h1 class="heading-primary">
+            <!-- Replace the following name with your name -->
+            <span>Michael Anthony Alfonso</span>
+          </h1>
+          <!-- Put a small paragraph about yourself -->
+          <p>
+            I am a highly motivated and hard working Web Designer and graduate
+            of UCF currently stationed in Sanford, Florida! I have experience in
+            user design & development, mobile application design & development,
+            designing for user experience, navigation structure, wireframing (UX
+            & Figma), website optimization and more! I am currently looking for
+            entry-level or contract opportunities to grow and better my
+            capabilities so I can be ready for whatever comes next! So click
+            below and...
+          </p>
+          <a href="#contact" class="btn btn--pink">Reach out to me!</a>
+          <a
+            href="resume/Michael A. Alfonso Resume.pdf"
+            download="Michael_Alfonso_Resume"
+            class="btn btn--pink"
+            >Check out my Resume!</a
+          >
+        </div>
+      </div>
+    </header>
 
-  <!-- ***** Header ***** -->
+    <main role="main">
+      <!-- ***** Work ***** -->
 
-  <header class="header" role="banner" id="top">
-    <div class="row">
-      <nav class="nav" role="navigation">
-        <ul class="nav__items">
-          <li class="nav__item"><a href="#work" class="nav__link">Work</a></li>
-          <li class="nav__item"><a href="#clients" class="nav__link">Clients</a></li>
-          <li class="nav__item">
-            <a href="#about" class="nav__link">About</a>
+      <section class="work" id="work">
+        <div class="row">
+          <h2>My Work</h2>
+          <div class="work__boxes">
+            <!-- Each div with the work__box class is a project. -->
+
+            <div class="work__box">
+              <div class="work__text">
+                <h3>Blackgoose Bistro</h3>
+                <p>
+                  A personal project I made long ago to demonstrate my ability
+                  to utilize basics of HTML, CSS, and PHP. It features a
+                  Restaurant menu not only with several tabs and an ordering
+                  page, but also many graphics and styling! Though I would
+                  certainly improve it's visual elements looking back, feel free
+                  to check it out yourself!
+                </p>
+                <ul class="work__list">
+                  <li>HTML</li>
+                  <li>CSS</li>
+                  <li>PHP</li>
+                </ul>
+
+                <div class="work__links">
+                  <a
+                    href="https://malfonso94848.github.io/Blackgoose-Bistro/"
+                    target="_blank"
+                    class="link__text"
+                  >
+                    Visit Site <span>&rarr;</span>
+                  </a>
+                  <a
+                    href="https://github.com/malfonso94848/Blackgoose-Bistro"
+                    title="View Source Code"
+                    target="_blank"
+                  >
+                    <img
+                      src="./images/github.svg"
+                      class="work__code"
+                      alt="GitHub"
+                    />
+                  </a>
+                </div>
+              </div>
+              <div class="work__image-box">
+                <img
+                  src="./images/Blackgoose-Bistro_Screenshot.png"
+                  class="work__image"
+                  alt="Blackgoose Bistro"
+                />
+              </div>
+            </div>
+
+            <div class="work__box">
+              <div class="work__text">
+                <h3>React Restaurant Menu</h3>
+                <p>
+                  One of my first uses with React where I created a basic online
+                  Restaurant menu with buttons for the purpose of understanding
+                  some of the tools I would work with going forward. Though in
+                  this particular project, I never added functionality to the
+                  buttons as I never set-up the "Cart," I did include such a
+                  feature in a later project.
+                </p>
+                <ul class="work__list">
+                  <li>HTML</li>
+                  <li>CSS</li>
+                  <li>JavaScript</li>
+                  <li>Node.js</li>
+                  <li>React.js</li>
+                </ul>
+
+                <div class="work__links">
+                  <a
+                    href="https://github.com/malfonso94848/React-Menu/"
+                    title="View Source Code"
+                    target="_blank"
+                  >
+                    <img
+                      src="./images/github.svg"
+                      class="work__code"
+                      title="View Source Code"
+                      alt="GitHub"
+                    />
+                  </a>
+                </div>
+              </div>
+              <div class="work__image-box">
+                <img
+                  src="./images/React-Menu.png"
+                  class="work__image"
+                  alt="Resturaunt Menu"
+                />
+              </div>
+            </div>
+
+            <div class="work__box">
+              <div class="work__text">
+                <h3>Florida Historical Society Redesign</h3>
+                <p>
+                  This was a collaborative personal project I completed with a
+                  small group of developers to Wireframe, Test User Experience,
+                  and finally develop what we think a re-design of the Florida
+                  Historical Society's website would look like! Although our
+                  time was limited, we believe we made a number of improvements.
+                  If you want to check it out for yourself, click the link
+                  below! Though please bear in mind that the project was left
+                  mostly unfinished (especially the Event's tab so don't click
+                  it that one).
+                </p>
+                <ul class="work__list">
+                  <li>HTML</li>
+                  <li>CSS</li>
+                  <li>JavaScript</li>
+                  <li>PHP</li>
+                  <li>User Experience</li>
+                  <li>Adobe XD</li>
+                </ul>
+
+                <div class="work__links">
+                  <a
+                    href="https://malfonso94848.github.io/Florida-Historical-Society-Redesign/"
+                    target="_blank"
+                    class="link__text"
+                  >
+                    Visit The Site <span>&rarr;</span>
+                  </a>
+                  <a
+                    href="https://github.com/malfonso94848/Florida-Historical-Society-Redesign"
+                    title="View Source Code"
+                    target="_blank"
+                  >
+                    <img
+                      src="./images/github.svg"
+                      class="work__code"
+                      title="View Source Code"
+                      alt="GitHub"
+                    />
+                  </a>
+                </div>
+              </div>
+              <div class="work__image-box">
+                <img
+                  src="./images/Florida-Historical-Society-Redesign_Screenshot.png"
+                  class="work__image"
+                  alt="Florida Historical Society Redesign"
+                />
+              </div>
+            </div>
+
+            <div class="work__box">
+              <div class="work__text">
+                <h3>E-Commerce Application</h3>
+                <p>
+                  This was a project where I challenged myself to create a
+                  functioning e-commerce app with only the usage of JavaScript.
+                  With it, you can send items to a cart for purchase, add items
+                  on the list to be purchased, and even proceed to a checkout
+                  page with a tallied total price! It's not the prettiest but it
+                  gets the job done.
+                </p>
+                <ul class="work__list">
+                  <li>JavaScript</li>
+                  <li>React</li>
+                </ul>
+
+                <div class="work__links">
+                  <a
+                    href="https://malfonso94848.github.io/e-commerce-app/"
+                    target="_blank"
+                    class="link__text"
+                  >
+                    Visit Site <span>&rarr;</span>
+                  </a>
+                  <a
+                    href="https://github.com/malfonso94848/e-commerce-app"
+                    title="View Source Code"
+                    target="_blank"
+                  >
+                    <img
+                      src="./images/github.svg"
+                      class="work__code"
+                      title="View Source Code"
+                      alt="GitHub"
+                    />
+                  </a>
+                </div>
+              </div>
+              <div class="work__image-box">
+                <img
+                  src="./images/E-Commerce_App_Screenshot.png"
+                  class="work__image"
+                  alt="E-Commerce App"
+                />
+              </div>
+            </div>
+
+            <div class="work__box">
+              <div class="work__text">
+                <h3>Gym Application Wireframe</h3>
+                <p>
+                  This is one of my many Adobe XD Wireframes I have designed for
+                  use with mobile applications and React development! With this
+                  project, I made a simple gym app for the recording of current
+                  reps and if your logged in, your all-time best with of a
+                  couple of exercises. With this design particularly, I have
+                  implemented full navigation for user experience and testing so
+                  click the link below and try it out!
+                </p>
+                <ul class="work__list">
+                  <li>User Experience</li>
+                  <li>Adobe XD</li>
+                  <li>React</li>
+                </ul>
+
+                <div class="work__links">
+                  <a
+                    href="https://xd.adobe.com/view/bfedf893-e45c-4949-8aff-7682ea4bb0c9-eabe/?fullscreen&amp;hints=off"
+                    target="_blank"
+                    class="link__text"
+                  >
+                    View Wireframe <span>&rarr;</span>
+                  </a>
+                </div>
+              </div>
+              <div class="work__image-box">
+                <img
+                  src="./images/Excersise App Wireframe Screenshot.png"
+                  class="work__image"
+                  alt="Excersise App Design"
+                />
+              </div>
+            </div>
+
+            <div class="work__box">
+              <div class="work__text">
+                <h3>React Exercise App</h3>
+                <p>
+                  This is a exercise app I developed using React which allows
+                  users to time themselves, record reps, and save personal
+                  records. It was inspired by my previous Wireframe I created
+                  with a similar idea in mind. Though I focused more on the core
+                  functions than the style as is clear. Only downside is I never
+                  added a way to store values such as with cookies.
+                </p>
+                <ul class="work__list">
+                  <li>JavaScript</li>
+                  <li>Java</li>
+                  <li>Node.js</li>
+                  <li>React</li>
+                  <li>Ruby</li>
+                </ul>
+
+                <div class="work__links">
+                  <a
+                    href="https://github.com/malfonso94848/React-Exercise-App"
+                    title="View Source Code"
+                    target="_blank"
+                  >
+                    <img
+                      src="./images/github.svg"
+                      class="work__code"
+                      title="View Source Code"
+                      alt="GitHub"
+                    />
+                  </a>
+                </div>
+              </div>
+              <div class="work__image-box">
+                <img
+                  src="./images/React-Exercise-App.gif"
+                  class="work__image"
+                  alt="Excersise App"
+                />
+              </div>
+            </div>
+
+            <div class="work__box">
+              <div class="work__text">
+                <h3>To-Do Application Design</h3>
+                <p>
+                  In this project, I wanted to design a to-do mobile app which
+                  would allow users to create complicated tasks to be done and
+                  allow the user to set times for those tasks to be completed
+                  for both the sake of a reminder and keeping track of what's
+                  already been done. Aimed towards people with busy schedules
+                  like students as seen with some of the examples I used!
+                </p>
+                <ul class="work__list">
+                  <li>User Experience</li>
+                  <li>Adobe XD</li>
+                  <li>React</li>
+                </ul>
+              </div>
+              <div class="work__image-box">
+                <img
+                  src="./images/TODO-App.png"
+                  class="work__image"
+                  alt="To-Do App Design"
+                />
+              </div>
+            </div>
+
+            <div class="work__box">
+              <div class="work__text">
+                <h3>React To-Do App</h3>
+                <p>
+                  A React app which lets users create various custom tasks and
+                  objectives in a list format to be completed similarly to an
+                  Agenda. The users can then, whenever the respected task is
+                  completed, click on those tasks (or their corresponding boxes)
+                  to strike-through them to mark as completed. You can also
+                  click the same task again to un-mark it in case of a mistake.
+                  If I was to work on this again, I would likely change the
+                  check-box icon so it also struck through instead of
+                  highlighting as it currently does.
+                </p>
+                <ul class="work__list">
+                  <li>JavaScript</li>
+                  <li>Node.js</li>
+                  <li>React</li>
+                </ul>
+
+                <div class="work__links">
+                  <a
+                    href="https://github.com/malfonso94848/React_To-Do_App"
+                    title="View Source Code"
+                    target="_blank"
+                  >
+                    <img
+                      src="./images/github.svg"
+                      class="work__code"
+                      title="View Source Code"
+                      alt="GitHub"
+                    />
+                  </a>
+                </div>
+              </div>
+              <div class="work__image-box">
+                <img
+                  src="./images/React-_To-Do_App_GIF.gif"
+                  class="work__image"
+                  alt="To-Do App"
+                />
+              </div>
+            </div>
+
+            <div class="work__box">
+              <div class="work__text">
+                <h3>Dream (by Wombo) Mobile Redesign</h3>
+                <p>
+                  Another of my Adobe XD Wireframe I made for practice. In this,
+                  I chose to redesign a free, AI art website's mobile
+                  application (as I found the version a little clunky in the
+                  past). I added the options to filter their tags and really
+                  aimed for simplicity while maintaining their color scheme.
+                  Looking back, I should have designed it for "Dark Mode" just
+                  so it was easier on the eyes!
+                </p>
+                <ul class="work__list">
+                  <li>User Experience</li>
+                  <li>Adobe XD</li>
+                  <li>React</li>
+                </ul>
+              </div>
+              <div class="work__image-box">
+                <img
+                  src="./images/Dream by Wombo Redesign.png"
+                  class="work__image"
+                  alt="AI App Design"
+                />
+              </div>
+            </div>
+
+            <div class="work__box">
+              <div class="work__text">
+                <h3>React Quiz App</h3>
+                <p>
+                  A React quiz application a made which features not only
+                  multiple choice, multiple answer, and true or false questions,
+                  but tells you your total score and which answers you picked at
+                  the end of the quiz! It even tells you which answers are
+                  correct and whichever of the answers you got wrong. My main
+                  gripe was that I never made it explicitly clear which question
+                  was "multiple choice" which could leave user's confused. I
+                  would at the very least specify in the text prompt if I ever
+                  went back to it.
+                </p>
+                <ul class="work__list">
+                  <li>JavaScript</li>
+                  <li>Node.js</li>
+                  <li>React</li>
+                </ul>
+
+                <div class="work__links">
+                  <a
+                    href="https://github.com/malfonso94848/React-Quiz-App"
+                    title="View Source Code"
+                    target="_blank"
+                  >
+                    <img
+                      src="./images/github.svg"
+                      class="work__code"
+                      title="View Source Code"
+                      alt="GitHub"
+                    />
+                  </a>
+                </div>
+              </div>
+              <div class="work__image-box">
+                <img
+                  src="./images/React-Quiz-App.gif"
+                  class="work__image"
+                  alt="Quiz App"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ***** Clients ***** -->
+
+      <section class="client" id="clients">
+        <div class="row">
+          <h2>Clients</h2>
+          <div class="client__logos">
+            <!-- Add logos of the clients or companies you'have worked with. -->
+            <img
+              src="./images/seminole-state-college-florida-PNG.jpg"
+              class="client__logo"
+              alt="Seminole State College"
+            />
+            <img
+              src="./images/University-of-Central-Florida-Logo.png"
+              class="client__logo"
+              alt="University of Central Florida"
+            />
+          </div>
+        </div>
+      </section>
+
+      <!-- ***** About ***** -->
+
+      <section class="about" id="about">
+        <div class="row">
+          <h2>About Me</h2>
+          <div class="about__content">
+            <div class="about__text">
+              <!-- Replace the below paragraph with info about yourself -->
+              <p>
+                There are many things to say but not enough words to express it.
+              </p>
+              <p>
+                I am a very open minded individual, not afraid to accept other
+                opinions or handle tasks in new and constructive ways. <br />
+                I believe their are always ways to improve myself or to improve
+                the overall community through consideration and collaboration.
+                <br />
+                Lastly, I strive for creativity and welcome new perspectives in
+                problem solving. <br />
+                After all, to explore these endless possibilities is to find new
+                ways forward.
+              </p>
+
+              <p>
+                It was these principles of mine which have led me down my path
+                as a Web Designer and Developer ever since High School. It has
+                since been my goal to not only learn all I can within Digital
+                Design but to use the skills and technology available to me to
+                change the lives of others. To use the languages of scripting
+                and the path of code in order to help those establish
+                connections and create visions for idea's they cannot
+                themselves.
+              </p>
+
+              <p>
+                To this day, I continue to strive and hone my skills and
+                abilities. Though I still have much to learn, life is about
+                improving ourselves no matter what, even after I've become an
+                expert design and developer.
+              </p>
+              <!-- Provide a link to your resume -->
+              <a href="www.linkedin.com/in/michael-anthony-alfonso" class="btn"
+                >My LinkedIn</a
+              >
+              <a
+                href="https://profile.indeed.com/p/michaela-kqvv31l"
+                class="btn"
+                >My Indeed</a
+              >
+            </div>
+
+            <div class="about__photo-container">
+              <!-- Add a nice photo of yourself -->
+              <img
+                class="about__photo"
+                src="./images/Michael_A_Alfonso.jpg"
+                alt=""
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- ***** Contact ***** -->
+
+    <section class="contact" id="contact">
+      <div class="row">
+        <h2>Get in Touch</h2>
+        <div class="contact__info">
+          <p>
+            Looking for a hard working and motivated to learn web developer? How
+            about a just as equally excited app developer? I am always looking
+            for opportunities to learn and improve, so whether you need to
+            produce a user-friendly website or an extra pair of hands developing
+            a brand new application, don't hesitate to reach out! The quickest
+            way reach me is via my number at 407-715-0845 but if you would like,
+            feel free to use my business email below. No matter what, I'll do my
+            best to respond to you as soon as I can!
+          </p>
+          <!-- Replace the email with yours -->
+          <a href="aalfonso94848@gmail.com" class="btn"
+            >aalfonso94848@gmail.com</a
+          >
+        </div>
+      </div>
+    </section>
+
+    <!-- ***** Footer ***** -->
+
+    <footer role="contentinfo" class="footer">
+      <div class="row">
+        <!-- Update the links to point to your accounts -->
+        <ul class="footer__social-links">
+          <li class="footer__social-link-item">
+            <a href="https://x.com/SaveState_NoUse" title="Link to X Profile">
+              <img
+                src="./images/twitter.svg"
+                class="footer__social-image"
+                alt="X"
+              />
+            </a>
           </li>
-          <li class="nav__item">
-            <a href="#contact" class="nav__link">Contact</a>
+          <li class="footer__social-link-item">
+            <a
+              href="https://github.com/malfonso94848"
+              title="Link to Github Profile"
+            >
+              <img
+                src="./images/github.svg"
+                class="footer__social-image"
+                alt="Github"
+              />
+            </a>
+          </li>
+          <li class="footer__social-link-item">
+            <a
+              href="https://www.youtube.com/@michaelalfonso4960"
+              title="Link to YouTube Profile"
+            >
+              <img
+                src="./images/youtube.svg"
+                class="footer__social-image"
+                alt="YouTube"
+              />
+            </a>
+          </li>
+          <li class="footer__social-link-item">
+            <a href="www.linkedin.com/in/michael-anthony-alfonso">
+              <img
+                src="./images/linkedin.svg"
+                title="Link to Linkedin Profile"
+                class="footer__social-image"
+                alt="Linkedin"
+              />
+            </a>
           </li>
         </ul>
-      </nav>
-    </div>
-    <div class="header__text-box row">
-      <div class="header__text">
-        <h1 class="heading-primary">
-          <!-- Replace the following name with your name -->
-          <span>Michael Anthony Alfonso</span>
-        </h1>
-        <!-- Put a small paragraph about yourself -->
-        <p>I am a highly motivated and hard working Web Designer and graduate of UCF currently stationed in Sanford, Florida! I have experience in user design & development, mobile application design & development, designing for user experience, navigation structure, wireframing (UX & Figma), website optimization and more! I am currently looking for entry-level or contract opportunities to grow and better my capabilities so I can be ready for whatever comes next! So click below and...</p>
-        <a href="#contact" class="btn btn--pink">Reach out to me!</a>
-        <a href="resume/Michael A. Alfonso Resume.pdf" download="Michael_Alfonso_Resume" class="btn btn--pink">Check out my Resume!</a>
-      </div>
-    </div>
-  </header>
 
-  <main role="main">
-
-    <!-- ***** Work ***** -->
-
-    <section class="work" id="work">
-      <div class="row">
-        <h2>My Work</h2>
-        <div class="work__boxes">
-
-          <!-- Each div with the work__box class is a project. -->
-
-          <div class="work__box">
-            <div class="work__text">
-              <h3>Blackgoose Bistro</h3>
-              <p>
-                A personal project I made long ago to demonstrate my ability to utilize basics of HTML, CSS, and PHP. It features a resturaunt menu not only with several tabs and an ordering page, but also many graphics and styling! Though I would certainly improve it's visual elements looking back, feel free to check it out yourself!
-              </p>
-              <ul class="work__list">
-                <li>HTML</li>
-                <li>CSS</li>
-                <li>PHP</li>
-              </ul>
-
-              <div class="work__links">
-                <a href="https://malfonso94848.github.io/Blackgoose-Bistro/" target="_blank" class="link__text">
-                  Visit Site <span>&rarr;</span>
-                </a>
-                <a href="https://github.com/malfonso94848/Blackgoose-Bistro" title="View Source Code" target="_blank">
-                  <img src="./images/github.svg" class="work__code" alt="GitHub">
-                </a>
-              </div>
-            </div>
-            <div class="work__image-box">
-              <img src="./images/Blackgoose-Bistro_Screenshot.png" class="work__image" alt="Blackgoose Bistro" />
-            </div>
-          </div>
-
-          <div class="work__box">
-            <div class="work__text">
-              <h3>React Resturaunt Menu</h3>
-              <p>
-                One of my first uses with React where I created a basic online resturaunt menu with buttons for the purpose of understanding some of the tools I would work with going forward. Though in this particular project, I never added functionality to the buttons as I never set-up the "Cart," I did include such a feature in a later project.
-              </p>
-              <ul class="work__list">
-                <li>HTML</li>
-                <li>CSS</li>
-                <li>JavaScript</li>
-                <li>Node.js</li>
-                <li>React</li>
-              </ul>
-
-              <div class="work__links">
-                <a href="https://github.com/malfonso94848/React-Menu/" title="View Source Code" target="_blank"></a>
-                  <img src="./images/github.svg" class="work__code" title="View Source Code" alt="GitHub">
-                </a>
-              </div>
-            </div>
-            <div class="work__image-box">
-              <img src="./images/React-Menu.png" class="work__image" alt="Resturaunt Menu" />
-            </div>
-          </div>
-
-          <div class="work__box">
-            <div class="work__text">
-              <h3>Florida Historical Society Redesign</h3>
-              <p>
-                This was a collaborative personal project I completed with a small group of developers to Wireframe, Test User Experience, and finally develop what we think a re-design of the Florida Historical Society's website would look like! Although our time was limited, we believe we made a number of improvements. If you want to check it out for yourself, click the link below! Though please bear in mind that the project was left mostly unfinished (especially the Event's tab so don't click it that one).
-              </p>
-              <ul class="work__list">
-                <li>HTML</li>
-                <li>CSS</li>
-                <li>JavaScript</li>
-                <li>PHP</li>
-                <li>User Experience</li>
-                <li>Adobe XD</li>
-              </ul>
-
-              <div class="work__links">
-                <a href="https://malfonso94848.github.io/Florida-Historical-Society-Redesign/" target="_blank" class="link__text">
-                  Visit The Site <span>&rarr;</span>
-                </a>
-                <a href="https://malfonso94848.github.io/Florida-Historical-Society-Redesign/" title="View Source Code" target="_blank"></a>
-                  <img src="./images/github.svg" class="work__code" title="View Source Code" alt="GitHub">
-                </a>
-              </div>
-            </div>
-            <div class="work__image-box">
-              <img src="./images/Florida-Historical-Society-Redesign_Screenshot.png" class="work__image" alt="Florida Historical Society Redesign" />
-            </div>
-          </div>
-
-          <div class="work__box">
-            <div class="work__text">
-              <h3>E-Commerce Application</h3>
-              <p>
-                This was a project where I challenged myself to create a functioning e-commerce app with only the usage of JavaScript. With it, you can send items to a cart for purchase, add items on the list to be purchased, and even prodceed to a checkout page with a tallied total price! It's not the prettiest but it gets the job done.
-              </p>
-              <ul class="work__list">
-                <li>JavaScript</li>
-                <li>React</li>
-              </ul>
-
-              <div class="work__links">
-                <a href="https://malfonso94848.github.io/e-commerce-app/" target="_blank" class="link__text">
-                  Visit Site <span>&rarr;</span>
-                </a>
-                <a href="https://github.com/malfonso94848/e-commerce-app" title="View Source Code" target="_blank">
-                  <img src="./images/github.svg" class="work__code" title="View Source Code" alt="GitHub">
-                </a>
-              </div>
-            </div>
-            <div class="work__image-box">
-              <img src="./images/E-Commerce_App_Screenshot.png" class="work__image" alt="E-Commerce App" />
-            </div>
-          </div>
-
-          <div class="work__box">
-            <div class="work__text">
-              <h3>Gym Application Wireframe</h3>
-              <p>
-                This is one of my many Adobe XD Wireframes I have designed for use with mobile applications and React development! With this project, I made a simple gym app for the recording of current reps and if your logged in, your all-time best with of a couple of excersises. With this design particularly, I have implimented full navigation for user experience and testing so click the link below and try it out!
-              </p>
-              <ul class="work__list">
-                <li>User Experience</li>
-                <li>Adobe XD</li>
-                <li>React</li>
-              </ul>
-
-              <div class="work__links">
-                <a href="https://xd.adobe.com/view/bfedf893-e45c-4949-8aff-7682ea4bb0c9-eabe/?fullscreen&amp;hints=off" target="_blank" class="link__text">
-                  View Wireframe <span>&rarr;</span>
-                </a>
-              </div>
-            </div>
-            <div class="work__image-box">
-              <img src="./images/Excersise App Wireframe Screenshot.png" class="work__image" alt="Excersise App Design" />
-            </div>
-          </div>
-
-          <div class="work__box">
-            <div class="work__text">
-              <h3>React Exercise App</h3>
-              <p>
-                This is a exercise app I developed using React which allows users to time themselves, record reps, and save personal records.
-                It was inspired by my previous Wireframe I created with a similar idea in mind. Though I focused more on the core functions than the style as is clear. Only downside is I never added a way to store values such as with cookies.
-              </p>
-              <ul class="work__list">
-                <li>JavaScript</li>
-                <li>Java</li>
-                <li>Node.js</li>
-                <li>React</li>
-                <li>Ruby</li>
-              </ul>
-
-              <div class="work__links">
-                <a href="https://github.com/malfonso94848/React-Exercise-App" title="View Source Code" target="_blank"></a>
-                  <img src="./images/github.svg" class="work__code" title="View Source Code" alt="GitHub">
-                </a>
-              </div>
-            </div>
-            <div class="work__image-box">
-              <img src="./images/React-Exercise-App.gif" class="work__image" alt="Excersise App" />
-            </div>
-          </div>
-
-          <div class="work__box">
-            <div class="work__text">
-              <h3>To-Do Application Design</h3>
-              <p>
-                In this project, I wanted to design a to-do mobile app which would allow users to create complicated tasks to be done and allow the user to set times for those tasks to be completed for both the sake of a reminder and keeping track of what's already been done. Aimed toward's people with busy schedules like students as seen with some of the examples I used!
-              </p>
-              <ul class="work__list">
-                <li>User Experience</li>
-                <li>Adobe XD</li>
-              </ul>
-
-            </div>
-            <div class="work__image-box">
-              <img src="./images/TODO-App.png" class="work__image" alt="To-Do App Design" />
-            </div>
-          </div>
-
-          <div class="work__box">
-            <div class="work__text">
-              <h3>React To-Do App</h3>
-              <p>
-                A React app which lets users create various custom tasks and objectives in a list format to be completed similarly to an Agenda. The users can then, whenever the respected task is completed, click on those tasks (or their corresponding boxes) to strike-through them to mark as completed. You can also click the same task again to un-mark it in case of a mistake. If I was to work on this again, I would likely change the check-box icon so it also struck through instead of highlighting as it currently does.
-              </p>
-              <ul class="work__list">
-                <li>JavaScript</li>
-                <li>Node.js</li>
-                <li>React</li>
-              </ul>
-
-              <div class="work__links">
-                <a href="https://github.com/malfonso94848/React_To-Do_App" title="View Source Code" target="_blank"></a>
-                  <img src="./images/github.svg" class="work__code" title="View Source Code" alt="GitHub">
-                </a>
-              </div>
-            </div>
-            <div class="work__image-box">
-              <img src="./images/React-_To-Do_App_GIF.gif" class="work__image" alt="To-Do App" />
-            </div>
-          </div>
-
-          <div class="work__box">
-            <div class="work__text">
-              <h3>Dream (by Wombo) Mobile Redesign</h3>
-              <p>
-                Another of my Adobe XD Wireframe I made for practice. In this, I chose to redesign a free, AI art website's mobile application (as I found the version a little clunky in the past). I added the options to filter their tags and really aimed for simplicity while maintaining their color scheme. Looking back, I should have designed it for "Dark Mode" just so it was easier on the eyes!
-              </p>
-              <ul class="work__list">
-                <li>User Experience</li>
-                <li>Adobe XD</li>
-              </ul>
-
-            </div>
-            <div class="work__image-box">
-              <img src="./images/Dream by Wombo Redesign.png" class="work__image" alt="AI App Design" />
-            </div>
-          </div>
-
-          <div class="work__box">
-            <div class="work__text">
-              <h3>React Quiz App</h3>
-              <p>
-                A React quiz appliction a made which features not only multiple choice, multiple answer, and true or false questions, but tells you your total score and which answers you picked at the end of the quiz! It even tells you which answers are correct and whichever of the answers you got wrong. My main gripe was that I never made it explicitely clear which question was "multiple choice" which could leave user's confused. I would at the very least specify in the text prompt if I ever went back to it.
-              </p>
-              <ul class="work__list">
-                <li>JavaScript</li>
-                <li>Node.js</li>
-                <li>React</li>
-              </ul>
-
-              <div class="work__links">
-                <a href="https://github.com/malfonso94848/React-Quiz-App" title="View Source Code" target="_blank"></a>
-                  <img src="./images/github.svg" class="work__code" title="View Source Code" alt="GitHub">
-                </a>
-              </div>
-            </div>
-            <div class="work__image-box">
-              <img src="./images/React-Quiz-App.gif" class="work__image" alt="Quiz App" />
-            </div>
-          </div>
-
-        </div>
-      </div>
-    </section>
-
-    <!-- ***** Clients ***** -->
-
-    <section class="client" id="clients">
-      <div class="row">
-        <h2>Clients</h2>
-        <div class="client__logos">
-          <!-- Add logos of the clients or companies you'have worked with. -->
-          <img src="./images/seminole-state-college-florida-PNG.jpg" class="client__logo" alt="Seminole State College" />
-          <img src="./images/University-of-Central-Florida-Logo.png" class="client__logo" alt="University of Central Florida" />
-        </div>
-      </div>
-    </section>
-
-    <!-- ***** About ***** -->
-
-    <section class="about" id="about">
-      <div class="row">
-        <h2>About Me</h2>
-        <div class="about__content">
-          <div class="about__text">
-            <!-- Replace the below paragraph with info about yourself -->
-           <p>
-              There are many things to say but not enough words to express it.
-           </p>
-           <p> 
-               I am a very open minded individual, not afraid to accept other opinions or handle tasks in new and
-               constructive ways. <br>
-               I believe their are always ways to improve myself or to improve
-               the overall community through consideration and collaboration. <br>
-               Lastly, I strive for creativity and welcome new perspectives in problem solving. <br>
-               After all, to explore these endless possibilities is to find new ways forward.
-           </p>
-               
-           <p>
-               It was these principles of mine which have led me down my path as a Web
-               Designer and Developer ever since High School.
-               It has since been my goal to not only learn all I can within Digital Design but to use
-               the skills and technology available to me to change the lives of others. To use the
-               languages of scripting and the path of code in order to help those establish
-               connections and create visions for idea's they cannot themselves. 
-           </p>
-              
-           <p>
-               To this day, I continue to strive and hone my skills and abilities. Though I still have much to learn, life is about improving ourselves no matter what, even after I've become an expert design and developer.
- 
-           </p>
-            <!-- Provide a link to your resume -->
-            <a href="www.linkedin.com/in/michael-anthony-alfonso" class="btn">My LinkedIn</a>
-            <a href="https://profile.indeed.com/p/michaela-kqvv31l" class="btn">My Indeed</a>
-          </div>
-
-          <div class="about__photo-container">
-            <!-- Add a nice photo of yourself -->
-            <img class="about__photo" src="./images/Michael_A_Alfonso.jpg" alt="" />
-          </div>
-        </div>
-      </div>
-    </section>
-  </main>
-
-  <!-- ***** Contact ***** -->
-
-  <section class="contact" id="contact">
-    <div class="row">
-      <h2>Get in Touch</h2>
-      <div class="contact__info">
+        <!-- If you give me some credit by keeping the below paragraph, will be huge for me 😊 Thanks. -->
         <p>
-          Looking for a hard working and motivated to learn web developer?
-          How about a just as equally excited app developer? I am always
-          looking for opportunities to learn and improve, so whether you 
-          need to produce a user-friendly website or an extra pair of hands
-          developing a brand new application, don't hesitate to reach out!
-          The quickest way reach me is via my number at 407-715-0845 but if
-          you would like, feel free to use my business email below. No matter
-          what, I'll do my best to respond to you as soon as I can!
+          &copy; 2020 - Template designed & developed by
+          <a href="https://nisar.dev" class="link">Nisar</a>.
         </p>
-        <!-- Replace the email with yours -->
-        <a href="aalfonso94848@gmail.com" class="btn">aalfonso94848@gmail.com</a>
+        <div class="footer__github-buttons">
+          <iframe
+            src="https://ghbtns.com/github-btn.html?user=nisarhassan12&repo=portfolio-template&type=watch&count=true"
+            frameborder="0"
+            scrolling="0"
+            width="170"
+            height="20"
+            title="Watch Portfolio Template on GitHub"
+          >
+          </iframe>
+        </div>
       </div>
-    </div>
-  </section>
+    </footer>
 
-  <!-- ***** Footer ***** -->
-
-  <footer role="contentinfo" class="footer">
-    <div class="row">
-      <!-- Update the links to point to your accounts -->
-      <ul class="footer__social-links">
-        <li class="footer__social-link-item">
-          <a href="https://x.com/SaveState_NoUse" title="Link to X Profile">
-            <img src="./images/twitter.svg" class="footer__social-image" alt="X">
-          </a>
-        </li>
-        <li class="footer__social-link-item">
-          <a href="https://github.com/malfonso94848" title="Link to Github Profile">
-            <img src="./images/github.svg" class="footer__social-image" alt="Github">
-          </a>
-        </li>
-        <li class="footer__social-link-item">
-          <a href="https://www.youtube.com/@michaelalfonso4960" title="Link to YouTube Profile">
-            <img src="./images/youtube.svg" class="footer__social-image" alt="YouTube">
-          </a>
-        </li>
-        <li class="footer__social-link-item">
-          <a href="www.linkedin.com/in/michael-anthony-alfonso">
-            <img src="./images/linkedin.svg" title="Link to Linkedin Profile" class="footer__social-image" alt="Linkedin">
-          </a>
-        </li>
-      </ul>
-
-      <!-- If you give me some credit by keeping the below paragraph, will be huge for me 😊 Thanks. -->
-      <p>
-        &copy; 2020 - Template designed & developed by <a href="https://nisar.dev" class="link">Nisar</a>.
-      </p>
-      <div class="footer__github-buttons">
-        <iframe
-          src="https://ghbtns.com/github-btn.html?user=nisarhassan12&repo=portfolio-template&type=watch&count=true"
-          frameborder="0" scrolling="0" width="170" height="20" title="Watch Portfolio Template on GitHub">
-        </iframe>
-      </div>
-    </div>
-  </footer>
-
-  <a href="#top" class="back-to-top" title="Back to Top">
-    <img src="./images/arrow-up.svg" alt="Back to Top" class="back-to-top__image"/>
-  </a>
-  <script src="./index.js"></script>
-</body>
-
+    <a href="#top" class="back-to-top" title="Back to Top">
+      <img
+        src="./images/arrow-up.svg"
+        alt="Back to Top"
+        class="back-to-top__image"
+      />
+    </a>
+    <script src="./index.js"></script>
+  </body>
 </html>
